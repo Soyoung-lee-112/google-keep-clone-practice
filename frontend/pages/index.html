@@ -32,7 +32,7 @@
           <div class="section-header">핀 노트</div>
           <!-- 핀 노트 예시-->
           <div class="note-container">
-            <div class="note">
+            <!-- <div class="note">
               <div class="note-title">노트 제목</div>
               <div class="note-body">노트 내용</div>
               <div class="note-footer flex-start">
@@ -47,15 +47,15 @@
                   <span class="material-icons-outlined md-18 gray">delete</span>
                 </button>
               </div>
-            </div>
+            </div> -->
           </div>
         </section>
         <!--  노트 -->
         <section id="noteList" class="note-section">
           <div class="section-header">노트</div>
-          <!-- 노트 예시-->
           <div class="note-container">
-            <div class="note">
+            <!-- 노트 예시-->
+            <!-- <div class="note">
               <div class="note-title">노트 제목</div>
               <div class="note-body">노트 내용</div>
               <div class="note-footer flex-start">
@@ -70,13 +70,13 @@
                   <span class="material-icons-outlined md-18 gray">delete</span>
                 </button>
               </div>
-            </div>
+            </div> -->
           </div>
         </section>
       </main> 
       <!-- 푸터 레이아웃-->
       <footer>Crafted By SY 😋</footer>
-      <!-- 모달 레이아웃-->
+      <!-- 모달 레이아웃-->~~
       <div id="modalLayout" class="hide"></div>
       <!-- 모달 본체-->
       <div id="modalWrapper" class="hide">
@@ -90,18 +90,19 @@
               <button class="pin">
                 <span class="material-icons-outlined md-18 gray">push_pin</span>
               </button>
-              <button class="color-select">
+              <div class="color-select">
                 <input type="color" class="color-picker" />
                 <span class="material-icons-outlined md-18 gray">palette</span>
-              </button>
+              </div>
               <button class="delete">
                 <span class="material-icons-outlined md-18 gray">delete</span>
               </button>
             </div>
-            <button>닫기</button>
+            <button class="close">닫기</button>
           </div>
         </div>
       </div>
     </div>
+    <script src="resources/index.js"></script>
   </body>
 </html>
